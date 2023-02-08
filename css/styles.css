@@ -6,7 +6,7 @@ html {
     background-image: url(../image/dilip-poddar-add9wq8DslE-unsplash.jpg);
 }
 
-h1, h2, h3 {
+h1, h2, h3 { /*small formatting tip, selectors are a little more readable if every selector is on a separate line */ 
     font-weight: 600; 
     background-color: black;
     color: blue;
@@ -60,7 +60,7 @@ main section {
 /*table*/
 
 table{
-    table-layout: fixed;
+    table-layout: fixed; /* great!*/ 
     width: 100%;
     border-collapse: collapse;
     border: 2px solid;
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 a:active {
-    background-color: red;
+    background-color: red; /* awesome! */ 
     color: #fff;
 }
 /*list*/
